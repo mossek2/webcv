@@ -1,0 +1,32 @@
+/*Custom navbar css element*/
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+
+.navbar .nav > .active > a {
+   background:none;
+   border-bottom: 2px solid #fff;
+}
+
+.navbar-brand > img {
+  height: 100%;
+  width: auto;
+}
+
+/*Custom Page header element*/
+.jumbotron {
+  margin-top: -60px;
+  margin-bottom: 0;
+  height: 101vh;
+  text-align: center;
+  background-image: url("http://placeholder.it/1920x1080");
+  background-size: cover;
+}
