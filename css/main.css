@@ -2,13 +2,18 @@
 
 .navbar {
   margin-bottom: 0;
+  height: 10%;
 }
 
 .navbar-default{
-  background:transparent;
+  background: rgba(255, 255, 255, 0.5);
   background-image:none;
-  border-color:transparent;
+  border-color:none;
   box-shadow:none;
+}
+
+.nav.navbar-nav li a {
+    color: #000;
 }
 
 .navbar .nav > .active > a {
@@ -29,4 +34,31 @@
   text-align: center;
   background-image: url("https://unsplash.it/1920/1080/?image=1012");
   background-size: cover;
+}
+
+/*Custom font elements*/
+@font-face
+{
+font-family: hipstel;
+src: url('../fonts/HipstelveticaLight.ttf');
+}
+
+@font-face
+{
+font-family: hipstelul;
+src: url('../fonts/HipstelveticaUltraLight.ttf');
+}
+
+@font-face
+{
+font-family: aquaHipster;
+src: url('../fonts/aqua.ttf');
+}
+
+h1, p{
+  font-family: hipstel, Times, serif;
+}
+
+*{
+  font-family: hipstelul, Times, serif;
 }
