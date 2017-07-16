@@ -1,64 +1,81 @@
-/*Custom navbar css element*/
-
-.navbar {
-  margin-bottom: 0;
-  height: 10%;
-}
-
-.navbar-default{
-  background: rgba(255, 255, 255, 0.5);
-  background-image:none;
-  border-color:none;
-  box-shadow:none;
-}
-
-.nav.navbar-nav li a {
-    color: #000;
-}
-
-.navbar .nav > .active > a {
-   background:none;
-   border-bottom: 2px solid #fff;
-}
-
-.navbar-brand > img {
-  height: 100%;
-  width: auto;
-}
-
-/*Custom Page header element*/
-.jumbotron {
-  margin-top: -60px;
-  margin-bottom: 0;
-  height: 101vh;
-  text-align: center;
-  background-image: url("https://unsplash.it/1920/1080/?image=1012");
+.jumbotron-fluid{
+  position: relative;
+  opacity: 0.6;
+  background-image: url("../img/contact-jumbo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 70vh;
+  text-align: center;
+  text-shadow: 10px;
+  margin-top: -2%;
+  padding-top: 5%;
+  color: #f1f7ee;
 }
 
-/*Custom font elements*/
-@font-face
+.space
 {
-font-family: hipstel;
-src: url('../fonts/HipstelveticaLight.ttf');
+  padding-top: 5%;
 }
 
-@font-face
+.space-bottom {
+  padding-bottom: 5%;
+}
+
+.squeeze
 {
-font-family: hipstelul;
-src: url('../fonts/HipstelveticaUltraLight.ttf');
+  margin-top: -5%;
+}
+.bigger {
+  font-size: 3.5em;
 }
 
-@font-face
+.lil-bigger {
+  font-size: 1.3em;
+}
+.map, .bgimg-1, .bgimg-3 {
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("");
+  min-height: 100%;
+}
+
+.subheading {
+  color: #2c303a;
+}
+
+.address {
+  color: #2c303a;
+  list-style: none;
+}
+
+.breaker
 {
-font-family: aquaHipster;
-src: url('../fonts/aqua.ttf');
+  color: #ddd;
+  background-color:#2c303a;
+  padding:50px 80px;
+  text-align: justify;
 }
 
-h1, p{
-  font-family: hipstel, Times, serif;
-}
-
-*{
-  font-family: hipstelul, Times, serif;
+.header
+{
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image:url('https://unsplash.it/1920/1080?image=802');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
