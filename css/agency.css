@@ -234,6 +234,7 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  height: 100vh;
   -o-background-size: cover;
   text-align: center;
   color: white;
