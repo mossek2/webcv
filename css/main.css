@@ -82,17 +82,3 @@
   padding:50px 80px;
   text-align: justify;
 }
-
-.header
-{
-  color: #fff;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-image:url('https://unsplash.it/1920/1080?image=802');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
