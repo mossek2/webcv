@@ -20,7 +20,7 @@
 }
 
 .allspace {
-  margin: 5% 0% 5%; 
+  margin: 5% 0% 5%;
 }
 .space-bottom {
   padding-bottom: 5%;
@@ -92,4 +92,8 @@
 
 .link {
     color: #81b762;
+}
+
+.svg {
+  fill: #fff;
 }
